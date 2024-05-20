@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Richcat - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>10%</span>
+        <i class="fa-solid fa-battery-quarter fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();">
+          <i class="fa-solid fa-angle-left fa-xl"></i
+        ></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Rich Cat</h1>
+      </div>
+      <div class="alt-header__column">
+        <span> <i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+        <span> <i class="fa-solid fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Friday, May 17, 2024</div>
+
+      <div class="message-row">
+        <img src="screenshot/richcat.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">Rich Cat</span>
+          <div class="message__info">
+            <span class="message__bubble">오늘 뭐하냥!</span>
+            <span class="message__time">18:40</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">박스에서 식빵 굽는디 ~,,~ </span>
+            <span class="message__time">18:43</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile fa-xl"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-xl"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/5a114a7624.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

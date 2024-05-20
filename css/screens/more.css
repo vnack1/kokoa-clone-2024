@@ -1,4 +1,10 @@
 .more-screen .icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.more-screen .icon-row .icon-row__icon {
+  width: 25%;
   margin-top: 35px;
 }
 
