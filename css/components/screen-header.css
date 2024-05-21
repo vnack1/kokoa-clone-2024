@@ -27,3 +27,18 @@
 .screen-header__icons .fa-gear:hover {
   animation: rotateGear 2s linear infinite;
 }
+
+@keyframes iconhover {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(-7px);
+  }
+}
+
+.screen-header__icons .fa-magnifying-glass:hover,
+.screen-header__icons .fa-comment-dots:hover,
+.screen-header__icons .fa-music:hover {
+  animation: iconhover 0.3s linear forwards;
+}

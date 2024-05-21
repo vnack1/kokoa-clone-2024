@@ -3,11 +3,30 @@
   justify-content: space-between;
 }
 
+@keyframes Id {
+  0% {
+    color: black;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(1);
+  }
+  100% {
+    color: black;
+    transform: none;
+  }
+}
+.icon-row__icon .fa-fingerprint:hover {
+  animation: Id 3s linear infinite;
+}
+
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .icon-row__icon span {
   margin-top: 18px;
 }
